@@ -4,7 +4,7 @@
 	<groupId>org.eclipse.paho</groupId>
 	<artifactId>java-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>${paho.version}</version>
+	<version>1.0.0</version>
 	
 	<properties>
 		<paho.version>1.0.0</paho.version>
@@ -17,7 +17,7 @@
 		<tycho.version>0.20.0</tycho.version>
 		<kepler.repo.url>http://download.eclipse.org/releases/kepler</kepler.repo.url>
 		<test.exclude>**/*ConformantTest.java</test.exclude>
-		<download.location>/home/data/httpd/download.eclipse.org/paho/releases/${paho.version}/Java</download.location>
+		<download.location>/home/data/httpd/download.eclipse.org/paho/releases/${project.version}/Java</download.location>
 	</properties>
 	
 	<name>Eclipse Paho</name>
