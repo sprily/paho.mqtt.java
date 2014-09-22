@@ -50,7 +50,7 @@
 			<url>http://repo.sprily.co.uk/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>repo.eclipse.org</id>
+			<id>repo.sprily.co.uk</id>
 			<name>Sprily Repository - Snapshots</name>
 			<url>http://repo.sprily.co.uk/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
