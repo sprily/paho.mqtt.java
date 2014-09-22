@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.eclipse.paho</groupId>
+	<groupId>uk.co.sprily</groupId>
 	<artifactId>java-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0</version>
@@ -45,14 +45,14 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>repo.eclipse.org</id>
-			<name>Paho Repository - Releases</name>
-			<url>https://repo.eclipse.org/content/repositories/paho-releases/</url>
+			<id>repo.sprily.co.uk</id>
+			<name>Sprily Repository - Releases</name>
+			<url>http://repo.sprily.co.uk/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>repo.eclipse.org</id>
-			<name>Paho Repository - Snapshots</name>
-			<url>https://repo.eclipse.org/content/repositories/paho-snapshots/</url>
+			<name>Sprily Repository - Snapshots</name>
+			<url>http://repo.sprily.co.uk/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
